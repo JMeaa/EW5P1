@@ -1,17 +1,17 @@
-let r = random(256);
-let g;
-let b;
+let redChannel;
+let greenChannel;
+let blueChannel;
 
 function setup() {
     createCanvas(400, 400);
-    // r = random(256);
-    g = random(256);
-    b = random(256);
+    redChannel = random(256);
+    greenChannel = random(256);
+    blueChannel = random(256);
 }
 
 function draw() {
     background(0);
-    fill(r, g, b);
+    fill(redChannel, greenChannel, blueChannel);
     circle(width / 2, height / 2, width * 0.8);
     // r++;
     // r %= 255;
