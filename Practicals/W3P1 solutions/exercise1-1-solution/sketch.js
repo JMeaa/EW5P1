@@ -16,10 +16,7 @@ function draw() {
     fill(0, g, b);
     circle(circleX, circleY, circleW);
     if (circleX === width - circleW / 2) { // Error: typo in circleW
-        circleY = (circleY + circleW); 
-        print(circleY);
-        circleY = circleY / height;
-        print(circleY);
+        circleY = (circleY + circleW) % height; 
     }
     circleX = (circleX + circleW) % width; // Bug: forgot brackets and % operator takes precedence over +
     b = (b + 1) % 255;
