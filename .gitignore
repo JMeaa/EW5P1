@@ -33,13 +33,13 @@
 
 # Week 4#
 #1#
-/Lectures/W4L1 examples
-/Lectures/W4L1 examples/halloweenV1
-/Lectures/W4L1 examples/halloweenV2
+#/Lectures/W4L1 examples
+#/Lectures/W4L1 examples/halloweenV1
+#/Lectures/W4L1 examples/halloweenV2
 /Practicals/W4P1 solutions
-/Snake/W4P1
+#/Snake/W4P1
 #2#
-/Lectures/W4L2 examples
+#/Lectures/W4L2 examples
 /Practicals/W4P2 solutions
 
 # Week 5#
