@@ -5,9 +5,8 @@ function setup() {
 }
 
 function draw() {
-    
+    background(0);
     if (mouseIsPressed) {
-        background(0);
         circle(width / 2, height / 2, width * 0.8);
     }
 }

@@ -6,8 +6,7 @@ function setup() {
 function draw() {
     background(0);
     fill(255);
-    rectMode(CENTER)
-    square(150, 125, 150);
+    square(75, 50, 150);
     fill(0, 0, 255);
-    square(250, 175, 150);
+    square(175, 100, 150);
 }

@@ -5,8 +5,3 @@ function setup() {
 function draw() {
     console.log(key, keyCode);
 }
-
-
-
-
-
